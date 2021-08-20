@@ -1,0 +1,26 @@
+.addjob-form {
+  text-align: center;
+  font-size: large;
+}
+h4 {
+  color: rgb(38, 228, 218);
+  font-size: 20px;
+  font-weight: 700;
+}
+label {
+  color: rgb(0, 174, 255);
+  font-size: 20px;
+  font-weight: 700;
+}
+input {
+  margin: 5px;
+  font-size: 25px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 17px;
+  background-color: rgb(38, 174, 228);
+  font-weight: 600;
+}

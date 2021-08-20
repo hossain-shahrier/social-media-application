@@ -1,0 +1,25 @@
+.edit__user{
+    display: flex;
+    .container{
+        margin-left: 100px;
+        margin-top: 70px;
+        .edit_user_info{
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            height: 22px;
+            color: rgb(184, 181, 181) !important;
+            background-color: #e5edf3;
+        }
+        .edit_user_info> input{
+            outline: none;
+            margin-left: 10px;
+            border: none;
+            background: none;
+            width: 20rem;
+            height: 40px;
+        }
+    }
+}

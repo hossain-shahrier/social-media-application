@@ -1,0 +1,62 @@
+.users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.users .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.users .container .left__container {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 100%;
+}
+
+.users .container .left__container .table {
+  position: absolute;
+  border-collapse: collapse;
+  width: 80%;
+  height: 200px;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.users .container .left__container .table tr {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.users .container .left__container .table th, .users .container .left__container .table td {
+  padding: 30px;
+  text-align: left;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.users .container .left__container .table .table_header {
+  background: #87c0cd;
+  color: white;
+}
+
+.users .container .left__container .table .table__icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+  background: none !important;
+}
+
+.users .container .left__container .table .table__icon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=Businesses.css.map */

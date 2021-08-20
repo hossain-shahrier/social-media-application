@@ -1,0 +1,188 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.home .container {
+  top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  left: 70px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.home .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background: linear-gradient(-5deg, #226597, #87c0cd);
+  -webkit-box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.3);
+  border-bottom: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 40px;
+  margin: 10px;
+  color: white;
+}
+
+.home .container .card:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.home .container .card > p {
+  margin-bottom: 8px;
+}
+
+.home .container .card__avatar {
+  margin-bottom: 10px;
+}
+
+.home .container table {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 18px;
+  border-collapse: collapse;
+  width: 330px;
+  height: 200px;
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.home .container table tr {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+.home .container table tr:hover {
+  background-color: #f5f5f5;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: black;
+}
+
+.home .container table th, .home .container table td {
+  padding: 30px;
+  text-align: left;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.home .container table .table_header {
+  background: #87c0cd;
+  color: white;
+}
+
+.home .container .card__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .container .card__container .card-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background: linear-gradient(-5deg, #F875AA, #F25287);
+  -webkit-box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.3);
+  border-bottom: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 40px;
+  margin: 10px;
+  color: white;
+}
+
+.home .container .card__container .card-two:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.home .container .card__container .card-icon {
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.home .container .card__container .card-icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.home .container .card__container .card-two > p {
+  margin-bottom: 8px;
+}
+
+.home .container .card__container .card-two > h4 {
+  margin-bottom: 8px;
+}
+
+.home .container .card__container .card-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background: linear-gradient(-5deg, #A3D2CA, #5EAAA8);
+  -webkit-box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.3);
+  border-bottom: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 40px;
+  margin: 10px;
+  color: white;
+}
+
+.home .container .card__container .card-three:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.home .container .card__container .card-icon {
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.home .container .card__container .card-three > p {
+  margin-bottom: 8px;
+}
+
+.home .container .card__container .card-three > h4 {
+  margin-bottom: 8px;
+}
+/*# sourceMappingURL=Home.css.map */

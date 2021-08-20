@@ -1,0 +1,8 @@
+.loading {
+    color: rgb(20, 223, 238);
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

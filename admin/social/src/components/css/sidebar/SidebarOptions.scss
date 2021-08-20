@@ -1,0 +1,20 @@
+.SidebarOptions {
+    display: flex;
+    align-items: center;
+    color: #F3F9FB;
+    cursor: pointer;
+  }
+  .SidebarOption__title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .SidebarOptions:hover {
+    color: #113F67;
+  }
+  .SidebarOptions__icon {
+    object-fit: contain;
+    height: 30px !important;
+    width: 30px !important;
+    margin-right: 8px;
+  }
+  

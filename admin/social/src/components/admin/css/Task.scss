@@ -1,0 +1,24 @@
+.create_task{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 70px;
+    display: grid;
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 100vh;
+        margin-top: 30px;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        background-color: #e5edf3;
+    }
+    button{
+        margin-top: 10px;
+        width: 5%;
+    }
+}

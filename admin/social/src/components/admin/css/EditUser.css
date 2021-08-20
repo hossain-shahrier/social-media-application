@@ -1,0 +1,35 @@
+.edit__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.edit__user .container {
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.edit__user .container .edit_user_info {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: #b8b5b5 !important;
+  background-color: #e5edf3;
+}
+
+.edit__user .container .edit_user_info > input {
+  outline: none;
+  margin-left: 10px;
+  border: none;
+  background: none;
+  width: 20rem;
+  height: 40px;
+}
+/*# sourceMappingURL=EditUser.css.map */
